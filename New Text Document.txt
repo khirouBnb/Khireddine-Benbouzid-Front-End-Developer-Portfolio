@@ -1,0 +1,6 @@
+rm -rf .git
+git init
+git add .
+git commit -m "Fresh start"
+git remote add origin https://github.com/khirouBnb/Khireddine-Benbouzid-Front-End-Developer-Portfolio.git
+git push -u origin main
