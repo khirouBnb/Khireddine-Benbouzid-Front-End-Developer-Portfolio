@@ -73,12 +73,55 @@ nav .right a {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 /* Skills, Projects, Testimonials Sections */
 .skills, .projects, .testimonials {
+=======
+/* Skills, Certifications, Testimonials, About, Education Sections */
+.skills, .certifications, .projects, .testimonials, .about, .education {
+>>>>>>> 9012bbb (Fresh start)
     padding: 40px 20px;
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.about-content, .disclaimer, .education-item {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.certifications {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cert-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex-basis: 300px;
+    text-align: center;
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+>>>>>>> 9012bbb (Fresh start)
 .skill-list, .project-list, .testimonial-list {
     display: flex;
     flex-wrap: wrap;
